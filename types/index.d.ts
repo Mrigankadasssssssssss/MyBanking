@@ -8,14 +8,14 @@ declare type SearchParamProps = {
   // ========================================
   
   declare type SignUpParams = {
-    firstName?: string;
-    lastName?: string;
-    address1?: string;
-    city?: string;
-    state?: string;
-    postalCode?: string;
-    dateOfBirth?: string;
-    ssn?: string;
+    firstName: string;
+    lastName: string;
+    address1: string;
+    city: string;
+    state: string;
+    postalCode: string;
+    dateOfBirth: string;
+    ssn: string;
     email: string;
     password: string;
   };
@@ -305,7 +305,7 @@ declare type SearchParamProps = {
   }
   
   declare interface exchangePublicTokenProps {
-    publicToken: string;
+    publicToken: String;
     user: User;
   }
   
@@ -314,7 +314,7 @@ declare type SearchParamProps = {
     userId: string;
     accountId: string;
     bankId: string;
-    fundingSourceUrl: string;
+    fundingSourceURL: string;
     shareableId: string;
   }
   
